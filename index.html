@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Барбешоп Бородинский</title>
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="/fonts/web/ptsansnarrow.woff2">
+<body>
+    <header class="main-header">
+        <nav class=" main-navigation">
+            <a class="main-header-logo">
+            <img src="img/index-logo.png" width="368" height="" alt="Логотип Барбешопа">
+             </a>
+             <div class="main-navigation-wrapper">
+                 <div class="container">
+                    <ul class="site-navigation "> 
+                    <li><a href="info.html">Информация</a></li>
+                    <li><a href="news.html">Новости</a></li>
+                    <li><a href="shop.html">Магазин</a></li>
+                    <li><a href="price.html">Прайс-лист</a></li>
+                    <li><a href="contacts.html">Контакты</a></li>
+                    </ul>
+                    <ul class="user-navigation">
+                        <li>
+                            <a class="login-link" href="login.html">Вход</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <main class="container">
+        <h1 class=" visually-hidden">Барбешоп главная</h1>
+        <section class="features">
+            <h2 class="visually-hidden ">Преимущества</h2>
+            <ul class="features-list">
+                <li class="feature-item">
+                    <h3>Быстро!</h3>
+                    <p>
+                        Два часа пролетит быстро и незаметно- и вот Вы уже счастливый обладатель стильной прически
+                    </p>
+                </li>
+                <li class="feature-item">
+                    <h3>Круто!</h3>
+                    <p>
+                        Забудьте как Вы стриглись раньше- мы сделаем из Вас звезду футбола или кино-во всяком случае внешне!
+                    </p>
+                </li>
+                <li class="feature-item">
+                    <h3>Дорого!</h3>
+                    <p>
+                        Наши мастера профессионалы своего дела и не могут стоить дешево-к тому же разве цена не придает определенный статус?
+                    </p>
+                </li>
+            </ul>
+        </section>
+        <div class="index-columns">
+            <section class="news">
+        <h2>Новости</h2>
+        <ul class="news-list">
+            <li class="news-item">
+                <p>
+                    Нам наконец завезли Ягермейстер! Теперь можно пропустить стаканчик во время стрижки!
+                </p>
+                <time datetime="2021-11-02">02 ноября</time>
+            </li>
+            <li>
+                <p>
+                    В нашей комманде пополнение -Богдан Стригун -обладатель множества наград пополнил наши ряды
+                </p>
+                <time datetime="2021-11-11">11 ноября</time>
+            </li>
+            <a class="button" href="news.html">Все новости</a>
+
+        </ul>
+            </section>
+            <section class="gallery">   
+             <h2>Фотогаллерея</h2>
+             <figure class="gallery-content">
+                 <a href="#">
+                     <img src="img/interior.jpg" width="286" height="164" alt="Интерьер">
+
+                 </a>
+             </figure>
+             
+             <button class="gallery-btn-back button gallery-button"  type="button">Назад</button>
+             <button  class="gallery-btn-next button gallery-button"  type="button">Вперед</button>
+            </section>
+        </div>
+        <div class="index-columns">
+            <section class="contacts" >
+             <h2>Контактная Информация</h2>
+             <p>
+                 Барбешоп Бородинский<br>
+                 Адрес: г Санкт-Петербург, Б.Конюшенная д. 19/8
+                 тел. +7 (812) 323 45 67
+             </p>
+             <p>
+                 Время работы :<br>
+                 Пн-Пт с 10:00 до 22:00<br>
+                 сб-вс с 10:00 до 19:30
+             </p>
+             <a class="button" href="map.html">Как проехать</a>
+             <a class="button" href="contacts.html">Обратная связь</a>
+
+            </section>
+            <section class="appointment">
+             <h2>Записаться</h2>
+             <p class="appointment-info">Укажите желаемую дату и время и мы свяжемся с вами для подтверждения брони</p>
+             <form class="appointment-form" action="адрес отправки" method="POST">
+                 <p class="appointment-item">
+                    <label for="appointment-date">Дата</label>
+                 <input id="appointment-date" type="date" name="date" value="2020-11-11">
+                </p>
+                <p class="appointment-item">
+                <label for="appointment-time">Время</label>
+                 <input id="appointment-time" type="time" name="time" value="10:00">
+                </p>
+                <p class="appointment-item">
+                    <label for="appointment-text">Ваше имя</label>
+                 <input id="appointment-text" type="text" name="text" value="" placeholder="Семен">
+                </p>
+                <p class="appointment-item">
+                    <label for="appointment-tel">Телефон</label>
+                 <input id="appoiintment-tel" type="tel" name="phone" value="" placeholder="+38 050 776 13 11">
+                 <button class="button" type="submit">Отправить</button>
+                </p>
+            </form>
+            </section>
+        </div>
+
+    </main>
+    <footer class="main-footer">
+            <div class="container">
+            <p class="footer-contacts">
+            Барбешоп Бородинский<br>
+            Адрес: г Санкт-Петербург, Б.Конюшенная д. 19/8<br>
+            <a href="map.html">Как нас найти</a><br>
+            тел. +7 (812) 323 45 67
+            </p>
+            <div class="footer-social">
+                <p>Социальные сети:</p>
+                <ul class="social-icon">
+                    <li class="icon-wk"> <a href="#"></a> </li>
+                    <li class="icon-fb"> <a href="/svg/facebook.svg"></a> </li>
+                    <li class="icon-in"> <a href="/svg/instagram.svg"></a> </li>
+                </ul>
+            </div>
+            <p class="footer-text"> 
+            Разработано    
+            <a class="footer-button" href="#">Учебный макет</a>
+            </p>
+        </div>
+    </footer>
+    <section class="modal modal-login visually-hidden">
+        <h2>Личный кабинет</h2>
+        <p>Введите логин и пароль</p>
+            <form class="login-form" action="адрес отправки" method="POST">
+                <p>
+                    <label class="visually-hidden" for="user-login">Логин</label>
+                    <input class="login-icon-user" id="user-login" type="email" name="login" placeholder="@gmail.com">
+                </p>
+                <p>
+                    <label class="visually-hidden" for="user-pas">Пароль</label>
+                <input class="login-icon-password" id="user-pas" type="password" name="password" placeholder="******">
+                </p>
+
+
+                <p class="login-password-info">
+                    
+                <label class="login-checkbox visually-hidden">
+                    <input type="checkbox" name="remember" >
+                    <span class="checkbox-indicator"></span>
+                    Запомните меня
+                </label>
+                <a class="restore" href="#">Я забыл пароль</a>
+                </p>
+                <button type="submit">Отправить</button>
+
+            </form>
+        <button type="button">Закрыть</button>
+    </section>
+    <section class="modal modal-map visually-hidden">
+        <h2 class="visually-hidden">Как до нас добраться</h2>
+            <p>
+                <img src="img/задний фон.jpg" width="780" height="560" alt="Мы находимся по адресу такому то">
+            </p>
+        <button class="modal-close" type="button">Закрыть</button>
+    </section>
+    <script src="js/main.js"></script>
+</body>
+</html> 
