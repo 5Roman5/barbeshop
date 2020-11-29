@@ -117,7 +117,7 @@ img {
   width: 16px;
   height: 18px;
 
-  background-image: url(/svg/login.svg);
+  background-image: url("/svg/login.svg");
   background-repeat: no-repeat;
   background-position: 0 0;
   opacity: 0.3;
