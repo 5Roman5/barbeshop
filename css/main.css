@@ -86,17 +86,16 @@ img {
   padding-top: 50px;
   width: 368px;
   height: 153px;
-
 }
 .site-navigation {
   display: flex;
   width: 680px;
-  
+
   list-style: 0;
 }
 
 .user-navigation {
-  display:flex;
+  display: flex;
 
   width: 140px;
 
@@ -109,7 +108,7 @@ img {
 }
 
 .login-link::before {
-  content:"";
+  content: "";
 
   position: absolute;
   top: 27px;
@@ -133,19 +132,15 @@ img {
   justify-content: space-between;
 }
 .container {
-  
   width: 940px;
   margin: 0 auto;
   padding: 0 10px;
 }
 
-
 .user-navigation-wrapper {
   width: 100%;
   margin-bottom: 60px;
   background-color: #000000;
-
-
 }
 
 .site-navigation,
@@ -159,7 +154,6 @@ img {
 .user-navigation a {
   display: block;
   padding: 25px 20px;
-
 
   color: #ffffff;
 }
@@ -212,7 +206,6 @@ img {
   margin: 0 10px;
 }
 
-
 .index-columns {
   display: flex;
   justify-content: space-between;
@@ -221,12 +214,10 @@ img {
   margin-bottom: 35px;
 
   background-color: #f8f5f2;
-  background-image: 
-  url("/img/line.png"),
-  url("/img/2.jpeg");
+  background-image: url("/img/line.png"), url("/img/2.jpeg");
 
   background-position: center, 0 0;
-  background-repeat:no-repeat, repeat;
+  background-repeat: no-repeat, repeat;
 
   margin-bottom: 35px;
 }
@@ -331,8 +322,7 @@ img {
 .appointment .button {
   display: block;
   width: 100%;
-  margin-top:  10px;
-  
+  margin-top: 10px;
 }
 .main-footer {
   color: #ffffff;
@@ -369,7 +359,7 @@ img {
   color: #f8f3f0;
   width: 26px;
   height: 26px;
-  background-image: url("/img/vk-circled.png")
+  background-image: url("/img/vk-circled.png");
 }
 .icon-fb {
   width: 22px;
@@ -439,12 +429,12 @@ img {
 }
 .footer-button {
   position: relative;
-  color:#2196f3;
+  color: #2196f3;
   letter-spacing: 4px;
 }
 .footer-button:hover {
   box-shadow: 0 0 10px #2196f3, 0 0 40px #2196f3, 0 0 80px #2196f3;
   background-color: #2196f3;
   color: #333;
-  transition-delay: 0,25s;
+  transition-delay: 0, 25s;
 }
